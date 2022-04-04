@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+/*main{
+    width: 250px;
+    height: 600px;
+    border: 1px solid black;
+}*/
+#slider{
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+#slider img{
+    width: 300px;
+    display: none;
+}
+.img{
+    width: 300px;
+}
+
+#slider img:first-child{
+    display: block;
+}
